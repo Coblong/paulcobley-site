@@ -1,3 +1,5 @@
+import DigitalTwinWidget from "./components/digital-twin-widget";
+
 const careerTimeline = [
   {
     period: "2025 - Present",
@@ -204,6 +206,8 @@ export default function Home() {
         <p>Paul Cobley</p>
         <p>Founder-led growth, systemized execution, and high-trust delivery.</p>
       </footer>
+
+      <DigitalTwinWidget />
     </main>
   );
 }
